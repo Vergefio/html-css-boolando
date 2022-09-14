@@ -1,0 +1,113 @@
+/* per fare passa sopra con il mouse 
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+
+}
+
+img{
+  max-width: 100%;
+}
+
+main {
+  padding: 100px;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  height: 70px;
+  width: 100%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  padding: ;
+}
+
+header ul a.active {
+  border-bottom: 50px solid green;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: white;
+  display: inline-block;
+  height: ;
+  alto come header
+  line-height: ;
+  alto come header
+  padding: ;
+}
+
+header ul li a:hover {
+  background-color: gray;
+}
+
+.big-box {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: ;
+  margin: ;
+  background-color: ;
+}
+
+.big-box h3 {
+  color: red
+}
+
+.big-box:hover h3{
+  color: yellow;
+}
+
+.product {
+  position: relative;
+  display: inline-block;
+  width: 300% (largo come l'img)
+}
+
+.product .discount{
+  positiob: absolute;
+  padding: 5px;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  background-color: grey;
+}
+
+.product .heart {
+dislpay: none;
+positiob: absolute;
+color:
+bottom 
+left
+text-align: center;
+width: 100% (largo come il contenitore e al centro)
+}
+
+.product:hover .heart{
+  dislpay: block;   (quando vai con il mouse sul quadrato ti fa vedere qualcosa)
+  cursor: pointer; 
+*/
+
