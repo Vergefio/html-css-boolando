@@ -54,30 +54,37 @@ header ul li a:hover {
   background-color: fuchsia;
 }
 
-header .logo img {
-  height: 30px;
-}
-
 .row {
+  cursor: pointer;
   position: relative;
-  display: flex;
-  width: 100%;
 }
 
-.row .pricipale img {
-  position: absolute;
-  z-index: 999;
-  top: 0%;
-  left: 0%;
+img {
+  width: 300PX;
 }
 
-.row .secondaria:hover img {
-  position: absolute;
+.row.principale {
+  display: inline-block;
   display: none;
-  z-index: -1;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
+
+.row img.secondaria {
+  position: absolute;
+  width: 300;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+
+
+
+
 
 /* 
 .container {
