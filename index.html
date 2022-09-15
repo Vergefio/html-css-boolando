@@ -15,37 +15,95 @@
   <body>
 
     <header>
-      <div class="gender">
-        <ul>
-          <li><a href="#">Donna</a></li>
-          <li><a href="#">Uomo</a></li>
-          <li><a href="#">Bambini</a></li>
-        </ul>
-      </div>
+      <div class="container d-flex">
 
-      <div class="logo"><img src="/img/boolean-logo.png" alt="Logo"></div>
-      <div class="shop">
-        <ul>
-          <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-          <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
-        </ul>
-      </div>
+        <nav class="main-menu">
+          <ul">
+            <li><a href="#">Donna</a></li>
+            <li><a href="#">Uomo</a></li>
+            <li><a href="#">Bambini</a></li>
+          </ul>
+        </nav>
 
-    </header>
+        <a href="logo"><img src="img/boolean-logo.png" alt="logo"></a>
 
-    <div class="container">
+        <nav class="social-menu">
+          <ul>
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+
       <main>
+        <div class="container d-flex flex-wrap">
 
-        <div class="row">
-          <img class="principale" src="img/1.webp" alt="prima">
-          <img class="secondaria" src="img/1b.webp" alt="seconda">
+          <div class="card">
+            <div class="card-img">
+              <img class="principale" src="img/1.webp" alt="prima">
+              <img class="secondaria" src="img/1b.webp" alt="seconda">
+              <div class="favorita">&hearts;</div>
+              <div class="card-badge">
+                <span class="badge badge-discount">-50%</span>
+                <span class="badge badge-tag">Sostenibilità&grave;</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="articolo-brand">Levis</span>
+              <h3 class="nome-articolo">RELAXED FIT TEE UNISEX</h3>
+              <strong class="articolo-prezzo">14,99 &euro;</strong>
+              <del>29.99 &euro;de</del>
+            </div>
+
+
+
+          </div>
         </div>
-
       </main>
 
       <footer>
-        F
+        <div class="container d-flex">
+          <div class="footer-left">
+            <h3>Boolando</h3>
+            <nav>
+              <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer-right">
+            <h4>trovaci anche tu</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </footer>
     </div>
   </body>

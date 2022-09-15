@@ -2,58 +2,169 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  outline: 2px solid red;
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  padding-bottom: 100%;
-  margin-top: 150px;
+img {
+  max-width: 100%;
 }
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 header {
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  z-index: 999;
   top: 0;
   left: 0;
-  background-color: #ff6900;
+  right: 0;
   height: 80px;
-  width: 100%;
-  padding: 0 10%;
+  background-color: #ff6900;
+  box-shadow: 0 1px 3px grey;
+  padding: 0 10px;
 }
 
-header ul {
+header ul, footer ul {
   list-style: none;
   display: flex;
 }
 
-header ul li {
-  padding: 0 20px;
+header .logo {
+  display: inline-block;
+  width: 140px;
+  ;
 }
 
-header ul li a {
+header .container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
   color: white;
   text-decoration: none;
-  display: inline-block;
-  height: 70px;
-  line-height: 70px;
 }
 
-header ul li a:hover {
-  background-color: fuchsia;
+.main-menu a {
+  font-weight: bold;
+  padding-left: 15px;
 }
 
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.social-menu a {
+  padding-left: 5px;
+}
+
+main {
+  padding-top: 130px;
+  height: 800px;
+}
+
+.card {
+  width: calc(100% / 3);
+  min-width: 245px;
+  margin-bottom: 40px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.card .card-img {
+  position: relative;
+}
+
+.card .card-img:hover .secondaria
+.card .secondaria {
+  display: none;
+}
+
+.card .card-img .favorita 
+.card .card-img .card-badge {
+  position: absolute;
+}
+
+.card .card-img .favorita {
+  padding: 10px 15px;
+  top: 10px;
+  right: 0;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.card .card-img .favorita:hover {
+  color: red;
+}
+
+.card .card-img .card-badge {
+  color: white;
+  padding: 5px 10px;
+  background-color: red;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.card .card-img .card-badge .badge.badge-tag {
+  background-color: green;
+}
+
+.card .articolo-brand {
+  font-size: .9rem;
+}
+
+.card .articolo-prezzo, .card del {
+  font-size: ;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 0;
+}
+
+footer h4, footer h3 {
+  margin-bottom: 10px;
+}
+
+footer .container {
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.footer-left a {
+  font-size: .9rem;
+  padding-right: 10px;
+}
+
+.footer-right a{
+  font-size: 1.5rem;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+/*  
 .row {
   cursor: pointer;
   position: relative;
@@ -77,7 +188,7 @@ img {
   top: 0;
   left: 0;
   z-index: -1;
-}
+}*/
 
 
 
@@ -85,64 +196,3 @@ img {
 
 
 
-
-/* 
-.container {
-
-}
-
-img{
-  max-width: 100%;
-}
-
-main {
-  padding: 100px;
-}
-
-header ul a.active {
-  border-bottom: 50px solid green;
-}
-
-
-.big-box {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: ;
-  margin: ;
-  background-color: ;
-}
-
-.big-box h3 {
-  color: red
-}
-
-.big-box:hover h3{
-  color: yellow;
-}
-
-
-.product .discount{
-  positiob: absolute;
-  padding: 5px;
-  top: 0;
-  right: 0;
-  font-size: 20px;
-  background-color: grey;
-}
-
-.product .heart {
-dislpay: none;
-positiob: absolute;
-color:
-bottom 
-left
-text-align: center;
-width: 100% (largo come il contenitore e al centro)
-}
-
-.product:hover .heart{
-  dislpay: block;   (quando vai con il mouse sul quadrato ti fa vedere qualcosa)
-  cursor: pointer;  (per fare passa sopra con il mouse)
-*/
